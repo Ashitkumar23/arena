@@ -46,7 +46,7 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse right float-right"
+        <div class="collapse navbar-collapse right float-right "
           id="navbarSupportedContent">
           <ul class="navbar-nav mr-5 ">
             <li class="nav-item active lis px-3 ">
@@ -65,19 +65,44 @@
         </div>
       </nav>
       <!-- =================== center text ================ -->
-      <div class="text arena">
-        <h1 class="d-flex justify-content-center">
+      <div class="arena">
+        <h1 class="d-flex justify-content-center ">
           <i>"ARENA ANIMATION"</i>
         </h1>
-        <h1 class="">
+        <h1 class="d-flex justify-content-center">
           <i>BEST ANIMATION COURSES IN DELHI </i>
         </h1>
+        <div class="d-flex justify-content-center mt-5">
+          <!-- <button class='glowing-btn' data-target="#ModalCenter">
+            
+          </button> -->
+          <button type="button" class=" glowing-btn" data-toggle="modal" data-target="#exampleModalCenter">
+            <span class='glowing-txt'>EN<span class='faulty-letter'>QU</span>IRE</span>
+          </button>
+        </div>
+
+        <!-- ========================= enguire ======================= -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="d-flex justify-content-center mt-5">
-        <button class='glowing-btn'>
-          <span class='glowing-txt'>EN<span class='faulty-letter'>QU</span>IRE</span>
-        </button>
-      </div>
+      
     </section>
     <!-- ============== discription  ==================-->
     <section class="mx-5">
@@ -107,8 +132,8 @@
           </div>
           <div class="card col-sm-12 col-md-6 ">
             <div class="card-body ">
-              <h2 class="card-title headisone">Welcome to the Best Animation
-                Institute</h2><br>
+              <h3 class="card-title headisone">Welcome to the Best Animation
+                Institute</h3><br>
               <p class="card-text textdisone">Arena Animation Institute offers
                 multimedia courses for students who aspire to make a career in
                 the Animation, VFX & Gaming industries. At Arena Animation, we

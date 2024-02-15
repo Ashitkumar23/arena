@@ -17,9 +17,14 @@
 .lis:hover{
     color: yellow;
 }
+
 .arena{
+    width: 100%;
     color: rgb(227, 232, 67);
     font-family: 'Tilt Neon', sans-serif;
+    position: absolute;
+    top: 45%;
+
 }
 .right{
     display: flex;
@@ -32,9 +37,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-.text{
-margin-top: 200px;
 }
 .car{
     height: 400px;
