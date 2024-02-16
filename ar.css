@@ -1,13 +1,7 @@
-#loader{
-    height: 100vh;
-    width: 100%;
-    background: #fff url(preloader.gif) no-repeat center;
-    position: fixed;
-    z-index: 999;
-}
 .logo{
     height: 60px;
     width: 120px;
+    margin-left: 45px;
 }
 .lis{
     color: #fafafa;
@@ -16,6 +10,7 @@
 }
 .lis:hover{
     color: yellow;
+    cursor: pointer;
 }
 
 .arena{
@@ -46,7 +41,23 @@
     height: 100px;
     width: 100px;
 }
-
+.howimgl{
+  height: 300px;
+  width: 300px;
+  margin-left: 250px;
+}
+/* .enguireimg{
+  background-image: url(how\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+} */
+/* .Enrollimg{
+  background-image: url(how\ 2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+} */
 
 /* circles effect */
 
@@ -719,15 +730,20 @@
     .caou .cardour{
      height: 125px;
     }
-    .headiso{
-    }
    }
    @media only screen and (max-width: 770px) {
     .caou .cardour{
      height: 145px;
     }
-    .headiso{
-    }
+   }
+   @media only screen and (max-width: 576px) {
+    .caou .cardour{
+      height: 175px;
+     }
+    .imgg{
+      width: 100%;
+      
+     }
    }
 
 
@@ -857,3 +873,28 @@
     background-color: #fafafa44;
     color: #f5f5f5;
    }
+
+   /* ========= arena text ============ */
+  @media only screen and (max-width: 680px) {
+    .logo{
+      margin-left: 0px;
+    }
+    .areatext{
+      position: absolute;
+      top: 55%;
+      font-size: 30px;
+      text-align: center;
+    }
+    .anitext{
+      position: absolute;
+      top: 75px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .glowing-btn{
+      position: absolute;
+      top: 200px;
+      font-size:20px;
+      text-align: center;
+    }
+  }
