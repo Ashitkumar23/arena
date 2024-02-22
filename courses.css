@@ -1,0 +1,57 @@
+.logo{
+    height: 60px;
+    width: 120px;
+    margin-left: 45px;
+}
+.lis{
+    color: #fafafa;
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+}
+.lis:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+.courseshome{
+    height: 100vh;
+    width: 100%;
+    background-image: url(How-to-Create-an-Online-Course-For-Free--Complete-Guide--6.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.ourtext{
+    color: #ffffff;
+    margin-left: 50px;
+}
+.ourtextpara{
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: large;
+}
+.ourcoutext{
+    position: absolute;
+    top: 40%;
+}
+.ourdeta{
+    height: 500px;
+    width: 100%;
+}
+.foot{
+    background-image: url(360_F_453610098_zdOp8kYCIUVamtdMpN8Uh6extkLzVvLJ.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.btun{
+    background-color: rgb(255, 196, 0);
+    border-radius: 25px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0,.25);;
+}
+.btun:hover{
+    
+}
