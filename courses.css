@@ -37,21 +37,39 @@
     position: absolute;
     top: 40%;
 }
-.ourdeta{
-    height: 500px;
-    width: 100%;
-}
 .foot{
     background-image: url(360_F_453610098_zdOp8kYCIUVamtdMpN8Uh6extkLzVvLJ.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
+.footcard{
+    background-color: #fafafa44;
+    color: #f5f5f5;
+   }
 .btun{
     background-color: rgb(255, 196, 0);
     border-radius: 25px;
-    box-shadow: 4px 4px 0 rgba(0, 0, 0,.25);;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0,.25); 
 }
 .btun:hover{
-    
+    background-color: red;
+    transition: 1s;
+    color: #fafafa;
 }
+.courow{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.courowchange{
+    height: 600px;
+}
+.imag{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 767px) {
+
+    }
+   
