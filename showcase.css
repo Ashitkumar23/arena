@@ -1,0 +1,40 @@
+.logo{
+    height: 60px;
+    width: 120px;
+    margin-left: 45px;
+}
+.lis{
+    color: #fafafa;
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+}
+.lis:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.arena{
+    width: 100%;
+    color: rgb(227, 232, 67);
+    font-family: 'Tilt Neon', sans-serif;
+    position: absolute;
+    top: 45%;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+.Showcase{
+    height: 100vh;
+    width: 100%;
+    background-image: url(scg-canvas-background-animation-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foot{
+    background-image: url(360_F_453610098_zdOp8kYCIUVamtdMpN8Uh6extkLzVvLJ.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  
