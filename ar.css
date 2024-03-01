@@ -698,6 +698,10 @@
      transition-delay: 0.2s;
     
   }
+  /* .imgg{
+    height: auto;
+    width: 100%;
+  } */
   @media only screen and (max-width: 1200px) {
     .caou .cardour{
      height: 175px;

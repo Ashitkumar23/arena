@@ -37,4 +37,8 @@
     background-repeat: no-repeat;
     background-size: cover
   }
-  
+.butnlist{
+    list-style: none;
+    display: flex;
+    border-radius: 0%;
+}
